@@ -1,0 +1,634 @@
+NUMECA INTERNATIONAL AUTOGRID 5 CONFIGURATION FILE
+VERSION      3.5
+UNITS        Meters
+UNITS-FACTOR 1
+NUMBER_OF_GRID_LEVEL  3
+NI_BEGIN channel
+	 STAGNATION_POINT_LOCATION 0
+NI_END   channel
+NI_BEGIN rsinterface
+	 NAME 			inlet
+	 POINTER 		282926960
+	 CELL_WIDTH 		0
+	 RELAXATION_LOCATION 		0
+	 RELAXATION_FACTOR 		1
+	 NB_OF_STREAM_POINTS 	17
+	 STREAM_INDEX 	-1
+	 FIXED_GEOMETRY 	1
+	 B2B_CONTROL 	1
+	 RELATIVE_LOCATION 	0
+	 SHAPE 			3
+	 R_CST_VALUE 		0
+	 Z_CST_VALUE 		0
+	 REFERENCE_FRAME 	1
+	 CONTROL_POINTS 	7 0 0 0 0 0 0 0
+NI_END   rsinterface
+NI_BEGIN rsinterface
+	 NAME 			outlet
+	 POINTER 		282636864
+	 CELL_WIDTH 		0
+	 RELAXATION_LOCATION 		0
+	 RELAXATION_FACTOR 		1
+	 NB_OF_STREAM_POINTS 	17
+	 STREAM_INDEX 	-1
+	 FIXED_GEOMETRY 	1
+	 B2B_CONTROL 	1
+	 RELATIVE_LOCATION 	1
+	 SHAPE 			3
+	 R_CST_VALUE 		0
+	 Z_CST_VALUE 		0
+	 REFERENCE_FRAME 	1
+	 CONTROL_POINTS 	7 1 1 1 1 1 1 1
+NI_END   rsinterface
+NI_BEGIN rsinterface_factory
+  NAME			unknown
+  NUMBER_OF_CTR_PTS		100
+  NUMBER_OF_SUPPORTS		5
+NI_BEGIN z_cst_line
+	 NAME 			Z_cst_line
+	 POINTER 		303053632
+	 CELL_WIDTH 		0
+	 RELAXATION_LOCATION 		0
+	 RELAXATION_FACTOR 		1
+	 NB_OF_STREAM_POINTS 	69
+	 STREAM_INDEX 	-1
+	 FIXED_GEOMETRY 	0
+	 B2B_CONTROL 	1
+	 Z_CST_LINE_TYPE 	0
+	 RELATIVE_LOCATION 	0.843444803903492
+	 SHAPE 			1
+	 R_CST_VALUE 		0
+	 Z_CST_VALUE 		0
+	 REFERENCE_FRAME 	1
+	 REFERENCE_ROW 		row 1
+	 ROW_LOCATION 		0
+	 CONTROL_POINTS 	7 0.843444803903492 0.8699235430265934 0.8854984824784637 0.8958141805818145 0.9033444126624788 0.9090188678387707 0.9135757159985962
+NI_END   z_cst_line
+NI_BEGIN z_cst_line
+	 NAME 			Z_cst_line
+	 POINTER 		303277712
+	 CELL_WIDTH 		0
+	 RELAXATION_LOCATION 		0
+	 RELAXATION_FACTOR 		1
+	 NB_OF_STREAM_POINTS 	81
+	 STREAM_INDEX 	-1
+	 FIXED_GEOMETRY 	0
+	 B2B_CONTROL 	1
+	 Z_CST_LINE_TYPE 	0
+	 RELATIVE_LOCATION 	0.1237465457680045
+	 SHAPE 			1
+	 R_CST_VALUE 		0
+	 Z_CST_VALUE 		0
+	 REFERENCE_FRAME 	1
+	 REFERENCE_ROW 		row 1
+	 ROW_LOCATION 		2
+	 CONTROL_POINTS 	7 0.1237465457680045 0.1016832982285812 0.08875046395322554 0.08083547175135727 0.07574485338600788 0.07256443566128787 0.07052906632453286
+NI_END   z_cst_line
+NI_BEGIN row inlet
+  NAME			dummy inlet
+  TYPE			normal
+  RSINTERFACE_POINTERS        282922944  282926960  0
+NI_BEGIN NIBlade
+  NAME			Main Blade
+NI_END   NIBlade
+NI_END   row inlet
+NI_BEGIN row outlet1
+  NAME			dummy outlet 2
+  TYPE			normal
+  RSINTERFACE_POINTERS        283898992  283903008  0
+NI_BEGIN NIBlade
+  NAME			Main Blade
+NI_END   NIBlade
+NI_END   row outlet1
+NI_BEGIN row outlet2
+  NAME			dummy outlet 1
+  TYPE			normal
+  RSINTERFACE_POINTERS        282636864  282640880  0
+NI_BEGIN NIBlade
+  NAME			Main Blade
+NI_END   NIBlade
+NI_END   row outlet2
+NI_END   rsinterface_factory
+NI_BEGIN nirow
+  NAME			row 1
+  TYPE			normal
+  PERIODICITY		16
+  GEOMETRY_PERIODICITY_NUMBER 1
+  ROTATION_SPEED		10750.2
+  LOW_MEMORY_USE		0
+  GENERATE_FULL_MESH		1
+  RELAX_UPSTREAM_CLUSTERING  0
+  RELAX_DOWNSTREAM_CLUSTERING 0
+  RELAX_DOWNSTREAM_CLUSTERING_BEFORE_NOZZLE 0
+  UNTWIST_INLET              0
+  UNTWIST_OUTLET             0
+  UNTWIST_INLET_STREAM_LOCATION 100
+  UNTWIST_OUTLET_STREAM_LOCATION 100
+  HUB_GAP_INTERPOLATION              0
+  SHROUD_GAP_INTERPOLATION           0
+  HUB_GAP_INTERPOLATION_SPAN_LOCATION 0
+  SHROUD_GAP_INTERPOLATION_SPAN_LOCATION 100
+  RADIUS_DEPENDENT_B2B_CELL_WIDTH        1
+  CELL_WIDTH_3D_POST_TREATMENT           1
+  SWAP_BLADE_PATCHES_NAME                0
+  BLADE_TIP_ROUNDED_TOPOLOGY             0
+  BLADELESS_MESH                         0
+  TANDEM_ROW_CONTROL	                    0
+  OPTIMIZATION               500
+  GAP_OPTIMIZATION_STEPS     100
+  OPTIMIZATION_COOLING       200
+  OPTIMIZATION_ENDWALL       100
+  OPTIMIZATION_ENDWALL_MG    1
+  OPTIMIZATION_TYPE		0
+  OPTIMIZATION_TYPE_GAP	0
+  OPTIMIZATION_NMB_CONTROL	0.5
+  ACOUSTIC_SOURCE	        1
+  STRAIGHT_BND_CONTROL	1
+  MULTISPLITTER_BND_CONTROL	0
+  OPTIMIZATION_BND_CONTROL	0
+  OPTIMIZATION_MULTIGRID      1
+  OPTIMIZATION_FULLMULTIGRID  0
+  OPTIMIZATION_WAKECONTROL_LEVEL        0.5
+  OPTIMIZATION_ORTHOGONALITY_LEVEL      0.5
+  OPTIMIZATION_ORTHOGONALITY_LEVEL_IN_GAP 0.5
+  FIRST_CELL_WIDTH		1e-05
+  CONTROL_LAYER_STEP		2
+  CONTROL_LAYER_STEP2		100
+  STREAMWISE_CONSTANT_CELL_RATIO 0.5
+  DESIRED_NUMBER_OF_POINTS    300000
+  ACCURACY                    2
+  STREAMWISE_ACCURACY         1 1 1
+  NON_AXISYMMETRIC_HUB        0
+  NON_AXISYMMETRIC_SHROUD     0
+  NON_AXISYMMETRIC_TIP_GAP    0
+  NON_AXISYMMETRIC_HUB_REPAIR_DAMAGES        1
+  NON_AXISYMMETRIC_SHROUD_REPAIR_DAMAGES     1
+  NON_AXISYMMETRIC_TIP_GAP_REPAIR_DAMAGES    1
+  NON_AXISYMMETRIC_HUB_PROJECTION_TYPE       2
+  NON_AXISYMMETRIC_SHROUD_PROJECTION_TYPE    2
+  RSINTERFACE_POINTERS        282926960  282636864  0
+NI_BEGIN NIBlade
+  NAME			Main Blade
+  TYPE			0
+NI_BEGIN NITopologyAutoB2B_skin
+  Type	                Default
+  Default_Orientation	STREAMWISE
+  User_Def_Offset_Curve_Relative_Width  1
+  User_Def_Offset_Curve_Relative_Width2  -0.1
+  Beta_averaging_rescale      1
+  FORCE_NON_MATCHING  0
+  HIGH_STAGGERED_AUTO_DETECT  0
+  InitializedDefault          1
+  InitializedHI               0
+  HOHInletLenght                2
+  HOHOutletLenght                2
+  HOHInletType                0
+  HOHOutletType               0
+  HOHSkinNInlet               9
+  HOHSkinNOutlet              9
+  HOHSkinNOutlet2             17
+  HOHSkinNInletDown           25
+  HOHSkinZCstLineAtLeadingEdge  0
+  HOHSkinZCstLineAtTrailingEdge 0
+  HOHSkinNOutletDown          25
+  HOHSkinNInletUp             25
+  HOHSkinNOutletUp            25
+  HOHSkinNStrInlet            17
+  HOHSkinNStrBlade            89
+  HOHSkinNStrBladeDown        89
+  HOHSkinNStrBladeUp          89
+  HOHSkinNStrOutlet           21
+  NThetaHUp                   17
+  HOHSkinExpansionRatio       1.12772
+  HOHSkinNBndLayer            25
+  HOHSkinNBndLayerGap         9
+  skinNBndLayerMaxExpRatio    0
+  HOHSkinInletAngleRef        0.07740513572194761
+  HOHSkinOutletAngleRef       0.07740513572194761
+  HOHSkinFreeOutlet           1
+  HOHSkinFreeInlet            1
+  HOHSkinFixOutlet            0
+  HOHSkinFixSkin              0
+  HOHSkinFixInlet             0
+  HOHSkinFixOutletMesh        0
+  HOHSkinFixInletMesh         0
+  HOHSkinPeriodicMatching     1
+  HOHSkinStaggeredTopology    1
+  trailingEdgeClustering      -1
+  leadingEdgeClustering       -1
+  clusteringRelaxation        1
+  clusteringProjection        0
+  blockHUp                    0
+  HOHSkinClustering		1e-05
+  HOHSkinClusteringHub	1e-05
+  HOHSkinClusteringShroud	1e-05
+  HOHSkinClusteringWidth	0.001323135224679648
+  HOHSkinClusteringInterpolation 0
+  HOHBladeDistributionControlSmooth			0
+  WAKE_PROLONGATION                			0
+  WAKE_CONTROL                			0
+  WAKE_DEVIATION                			0
+  DENSITY_PROJECTION                			0
+  ******* OLD HOH IMPLEMENTATION *********	 
+  HOHAzimutalNpts1		17
+  HOHAzimutalNpts2		17
+  HOHBladeToBladeclusteringRatio		0.0125
+  HOHStreamwiseClusteringRatio		0.2
+  HOHbladeNpt1		33
+  HOHbladeNpt2		17
+  HOHbladeNpt3		33
+  HOHbladeNpt4		17
+  HOHbladeNpt5		17
+  HOHbladeNpt6		17
+  HOHbladeNpt7		17
+  HOHbladeNpt8		17
+  HOHMeshInlet		1
+  HOHMeshOutlet		1
+  HOHMeshInletType		1
+  HOHMeshOutletType		1
+  HOHMeshInletNpt		17
+  HOHMeshOutletNpt		17
+  HOHMeshInletPos		0.1
+  HOHMeshOutletPos		0.1
+  HOH_gap_type		1
+  HOHlead_gap_position_control1		1
+  HOHtrail_hub_gap_position_control1		1
+  HOHlead_hub_gap_position_control2		0.8
+  HOHtrail_hub_gap_position_control2		0.8
+  HOHdragDistributionControl		3
+  HOH_gap_n1		5
+  HOH_gap_n2		33
+  HOH_gap_azi		9
+  HOHBladeDistributionControl		0
+  HOHBladeDistributionControlLead		2
+  HOHBladeDistributionControlTrail		2
+  HOHBladeDistributionControlLeadDistance		-1
+  HOHBladeDistributionControlTrailDistance		-1
+  HOHBladeDistributionControlLeadLenght		-1
+  HOHBladeDistributionControlTrailLenght		-1
+  HOHBladeDistributionControlLeadRelativeDistance		1
+  HOHBladeDistributionControlTrailRelativeDistance		1
+  HOHOrthogonality_factor		1
+  HOHTheta_inlet_factor		0.5
+  HOHTheta_outlet_factor		0.5
+  Number_of_pts_in_throat		0
+  throat_projection_type		1
+  inlet_projection_relaxation		6
+  outlet_projection_relaxation	6
+  ******* HI IMPLEMENTATION *********	 
+  HINBladeInletDown   17
+  HINBladeDown        45
+  HINBladeOutletDown  21
+  HINBladeInletUp     17
+  HINBladeUp          45
+  HINBladeOutletUp    21
+  HINThetaInlet       25
+  HINThetaOutlet      25
+  HINThetaBluntInlet  17
+  HINThetaBluntOutlet 17
+  HISkinBlock         1
+  HIHTopology         0
+  HIHInlet		0
+  HIHOutlet		0
+NI_END   NITopologyAutoB2B_skin
+NI_BEGIN niBladeClustering
+  NAME                   blade Clustering Control
+  imposedExpansionRatio	0
+  expansionRatio         1.107777507711398
+  desiredExpansionRatio	1.5
+NI_BEGIN niTrailingEdgeControl
+  NAME			trailing Edge Control
+  parametricLocation          1
+  absoluteControlDistance	0.001007836547682461
+  relativeControlDistance	0.5
+  cellLenght            	3.563117842406423e-05
+  controlDistanceType		2
+  HIAutoClusteringRelax	0
+  HIClusteringRelax		1
+  HIProjectionRelaxUp		1
+  HIProjectionRelaxDown	1
+NI_END   niTrailingEdgeControl
+NI_BEGIN niLeadingEdgeControl
+  NAME			leading Edge Control
+  parametricLocation          0
+  absoluteControlDistance	0.001842113434637786
+  relativeControlDistance	0.5
+  cellLenght            	6.431472558394055e-05
+  controlDistanceType		2
+  HIAutoClusteringRelax	0
+  HIClusteringRelax		1
+  HIProjectionRelaxUp		1
+  HIProjectionRelaxDown	1
+NI_END   niLeadingEdgeControl
+NI_END   niBladeClustering
+  NO_BLUNT_AT_LEADING_EDGE
+  NO_BLUNT_AT_TRAILING_EDGE
+  NO_SHARP_AT_LEADING_EDGE
+  NO_SHARP_AT_TRAILING_EDGE
+  CHORD_POINT_NUMBER  33
+  GEOMETRY_PARAMETERS_AVERAGING  100
+  KEEP_BLADE_CHT_MESH		0
+  KEEP_BLADING_MESH		1
+  KEEP_COOLING_MESH		1
+  KEEP_SKIN_MESH		1
+  LEADING_EDGE_INDEX		97
+  BND_LAYERS_HUB		0
+  MERGE_HOLES_BLOCKS		1
+  BND_LAYERS_HUB		0
+  BND_LAYERS_SHROUD		0
+  COOLING_WALL_STREAMWISE_DISTRIBUTION 1
+  CONTROL_THETA		0
+  HOLES_TOLERANCE		1e-08
+  SOLID_BODY_CONFIGURATION	0
+  SOLID_BODY_MESH_RELAXATION	0
+  BASIN_MESH_WITH_HOLES_RESOLUTION	1
+NI_BEGIN NITipGap
+  NAME                       Main Blade,shroud gap
+  TYPE                       0
+  DEFINED_SHAPE              0
+  NPTS_SPANWISE              2
+  WIDTH_AT_LEADING_EDGE      1e-05
+  WIDTH_AT_TRAILING_EDGE     1e-05
+  CST_CELLS_NUMBER           33
+  CLUSTERING_AT_LE           1e-05
+  CLUSTERING_AT_TE           1e-05
+  UNIFORM_CLUSTERING         0
+  TOPOLOGY_TYPE              0
+  KEEP_CHIMERA_BLOCK         0
+  enforceNonMatching         0
+  NON_AXISYMMETRIC_HUB        0
+  NON_AXISYMMETRIC_HUB_REPAIR_DAMAGES        1
+NI_END   NITipGap
+NI_BEGIN nibladegeometry
+	HUB_TREATMENT        NONE
+	SHROUD_TREATMENT        NONE
+	HUB_FILLED_RADIUS    0.001
+	HUB_FILLED_ANGLE     20
+	HUB_FILLED_OFFSET    0
+	HUB_EXTENT_OFFSET    0.001
+	SHROUD_FILLED_RADIUS 0.001
+	SHROUD_FILLED_ANGLE  20
+	SHROUD_FILLED_OFFSET 0
+	SHROUD_EXTENT_OFFSET 0.001
+	SPAN_CUT_PERCENTAGE  0.7
+	HUB_EXPANSION        0
+	SHROUD_EXPANSION     0
+	SEWING_TOLERANCE     1e-06
+	INTERSECTION_NPTS    10
+	INTERSECTION_CHECK_RATIO 5
+	FILL_HOLES           0
+	INTERSECTION_TYPE  PARASOLID
+NI_END   nibladegeometry
+NI_END   NIBlade
+NI_BEGIN nirowwizard
+  ROWTYPE                    12
+  NAME                       row wizard
+  ROTOR                      1
+  GRID_LEVEL                 0
+  FLOW_PATH_NUMBER           57
+  HUB_GAP                    0
+  TIP_GAP                    0
+  HUB_FILLET                 0
+  TIP_FILLET                 0
+  TIP_CONTROL_WIDTH_LE       0.002381838627523068
+  TIP_CONTROL_WIDTH_TE       0.002381838627523068
+  HUB_CONTROL_WIDTH_LE       0.002381838627523068
+  HUB_CONTROL_WIDTH_TE       0.002381838627523068
+  FULL_MATCHING              1
+  ROW_CLUSTERING             1e-05
+NI_END   nirowwizard
+NI_BEGIN NIGridQualities
+  NAME			row 1
+  NUMBER_OF_POINTS		2021743
+  MULTIGRID_LEVEL		1
+  NEGATIVE_CELLS		0
+  UNDEFINED_PATCHES           No
+  GENERATION_TIME             33
+NI_BEGIN angular_deviation_criteria
+NI_END angular_deviation_criteria
+NI_BEGIN negative_cell_float
+Negative cells check in single precision:
+---------------------------------
+No negative cells
+NI_END negative_cell_float
+NI_BEGIN negative_cell_double
+Negative cells check in double precision:
+---------------------------------
+No negative cells
+NI_END negative_cell_double
+NI_BEGIN NIGridQuality_skewness
+  NAME			Skewness  Angle
+  startInterval		0
+  endInterval			90
+  numberOfIntervals		5
+  intervals		        0  174943  216242  914172  4546235  
+  average		        77.68209618157785
+  min		                18.419
+  max		                90
+  maxBlock		        row_1_flux_1_Main_Blade_downStream
+  Imax		        45
+  Jmax		        63
+  Kmax		        8
+NI_END NIGridQuality
+NI_BEGIN NIGridQuality_span_skewness
+  NAME			Spanwise Skewness Angle
+  startInterval		0
+  endInterval			180
+  numberOfIntervals		5
+  intervals		        1915840  0  0  0  0  
+  average		        179.7025724939195
+  min		                178.1
+  max		                180
+  maxBlock		        row_1_flux_1_Main_Blade_up
+  Imax		        18
+  Jmax		        80
+  Kmax		        56
+NI_END NIGridQuality
+NI_BEGIN NIGridQuality_span_exp
+  NAME			Spanwise Expansion Ratio
+  startInterval		1
+  endInterval			10
+  numberOfIntervals		5
+  intervals		        1913600  0  0  0  0  
+  average		        1.101986568233907
+  min		                0.9
+  max		                1.1534
+  maxBlock		        row_1_flux_1_Main_Blade_down
+  Imax		        0
+  Jmax		        19
+  Kmax		        95
+NI_END NIGridQuality
+NI_BEGIN NIGridQuality_aspectRatio
+  NAME			Aspect    Ratio
+  startInterval		0
+  endInterval			5000
+  numberOfIntervals		5
+  intervals		        5851592  0  0  0  0  
+  average		        6.971188737560484
+  min		                1
+  max		                113.58
+  maxBlock		        row_1_flux_1_Main_Blade_skin
+  Imax		        0
+  Jmax		        35
+  Kmax		        192
+NI_END NIGridQuality
+NI_BEGIN NIGridQuality_expansionRatio
+  NAME			Expansion Ratio
+  startInterval		1
+  endInterval			5
+  numberOfIntervals		5
+  intervals		        5745186  94  0  0  0  
+  average		        1.054661592710262
+  min		                0.9
+  max		                2.1849
+  maxBlock		        row_1_flux_1_Main_Blade_skin
+  Imax		        23
+  Jmax		        99
+  Kmax		        99
+NI_END NIGridQuality
+NI_BEGIN NIGridQuality_wallDistance
+  NAME			wall Distance  
+  startInterval		0
+  endInterval			1
+  numberOfIntervals		5
+  intervals		        61760  0  0  0  0  
+  average		        9.994983704412208e-06
+  min		                8.6722e-06
+  max		                1.0712e-05
+  maxBlock		        row_1_flux_1_Main_Blade_downStream
+  Imax		        40
+  Jmax		        0
+  Kmax		        0
+NI_END NIGridQuality
+NI_END   NIGridQualities
+NI_BEGIN NITopologyAuto4ZR
+	 NUMBER_OF_FLOW_PATH 	101
+	 NOZZLE_INDEX                    	49
+	 HUB_POINTS_CLUSTERING 		0
+	 SHROUD_POINTS_CLUSTERING 	4
+	 CTR_PTS_NUMBER 	100
+	 INTERMEDIATE_PTS_NUMBER 	10
+	 OPTIMIZATION_STEPS 	0
+	 BND_OPTIMIZATION_STEPS 	10
+	 CST_CELLS_NUMBER 	30
+	 HUB_CLUSTERING 	1e-05
+	 SHROUD_CLUSTERING 	1e-05
+NI_END   NITopologyAuto4ZR
+NI_BEGIN NIRowLayer_Recorder
+NI_BEGIN nirowlayer_record_hub
+NI_END   nirowlayer_record_hub
+NI_BEGIN nirowlayer_record_shroud
+NI_END   nirowlayer_record_shroud
+NI_END   NIRowLayer_Recorder
+NI_END   nirow
+NI_BEGIN NIGridQualities
+  NAME			Entire Mesh
+  NUMBER_OF_POINTS		2021743
+  MULTIGRID_LEVEL		1
+  NEGATIVE_CELLS		0
+  UNDEFINED_PATCHES           No
+  GENERATION_TIME             35
+  GENERATION_DATE          2026-07-24 17:00:42
+  COMPILATION_DATE         Aug  1 2024
+  VERSION                  2024.1
+NI_BEGIN angular_deviation_criteria
+NI_END angular_deviation_criteria
+NI_BEGIN negative_cell_float
+Negative cells check in single precision:
+---------------------------------
+No negative cells
+
+NI_END negative_cell_float
+NI_BEGIN negative_cell_double
+Negative cells check in double precision:
+---------------------------------
+No negative cells
+
+NI_END negative_cell_double
+NI_BEGIN connection_at_rs_interface_in_zr_effect
+NI_END connection_at_rs_interface_in_zr_effect
+NI_BEGIN NIGridQuality_skewness
+  NAME			Skewness  Angle
+  startInterval		0
+  endInterval			90
+  numberOfIntervals		5
+  intervals		        0  174943  216242  914172  4546235  
+  average		        77.68209618157785
+  min		                18.419
+  max		                90
+  maxBlock		        undef
+  Imax		        0
+  Jmax		        0
+  Kmax		        0
+NI_END NIGridQuality
+NI_BEGIN NIGridQuality_span_skewness
+  NAME			Spanwise Skewness Angle
+  startInterval		0
+  endInterval			180
+  numberOfIntervals		5
+  intervals		        1915840  0  0  0  0  
+  average		        179.7025724939195
+  min		                178.1
+  max		                180
+  maxBlock		        undef
+  Imax		        0
+  Jmax		        0
+  Kmax		        0
+NI_END NIGridQuality
+NI_BEGIN NIGridQuality_span_exp
+  NAME			Spanwise Expansion Ratio
+  startInterval		1
+  endInterval			10
+  numberOfIntervals		5
+  intervals		        1913600  0  0  0  0  
+  average		        1.101986568233907
+  min		                0.9
+  max		                1.1534
+  maxBlock		        undef
+  Imax		        0
+  Jmax		        0
+  Kmax		        0
+NI_END NIGridQuality
+NI_BEGIN NIGridQuality_aspectRatio
+  NAME			Aspect    Ratio
+  startInterval		0
+  endInterval			5000
+  numberOfIntervals		5
+  intervals		        5851592  0  0  0  0  
+  average		        6.971188737560484
+  min		                1
+  max		                113.58
+  maxBlock		        undef
+  Imax		        0
+  Jmax		        0
+  Kmax		        0
+NI_END NIGridQuality
+NI_BEGIN NIGridQuality_expansionRatio
+  NAME			Expansion Ratio
+  startInterval		1
+  endInterval			5
+  numberOfIntervals		5
+  intervals		        5745186  94  0  0  0  
+  average		        1.054661592710262
+  min		                0.9
+  max		                2.1849
+  maxBlock		        undef
+  Imax		        0
+  Jmax		        0
+  Kmax		        0
+NI_END NIGridQuality
+NI_BEGIN NIGridQuality_wallDistance
+  NAME			wall Distance  
+  startInterval		0
+  endInterval			1
+  numberOfIntervals		5
+  intervals		        61760  0  0  0  0  
+  average		        9.994983704412208e-06
+  min		                8.6722e-06
+  max		                1.0712e-05
+  maxBlock		        undef
+  Imax		        0
+  Jmax		        0
+  Kmax		        0
+NI_END NIGridQuality
+NI_END   NIGridQualities

@@ -1,0 +1,493 @@
+
+Block 0 	 np 6 
+
+	 Patch 0 (Periodic)
+	 Next block = 0, next patch = 5
+	 ist = 0, ien = 81; jst = 0, jen = 101; kst = 0, ken = 1
+	 idir = 0; jdir = 1; kdir = 6
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00001515; sdt =   0.00013158
+	 max_dx = 0; max_dr = 1.4901e-08; max_dt = 8.9407e-08
+
+	 Patch 1 (Exit)
+	 ist = 80, ien = 81; jst = 0, jen = 101; kst = 0, ken = 57
+
+	 Patch 2 (Periodic)
+	 Next block = 6, next patch = 4
+	 ist = 0, ien = 1; jst = 0, jen = 101; kst = 0, ken = 25
+	 idir = 6; jdir = 1; kdir = 5
+	 Corner distances = 0.009903, 0.005000, 0.000031, 0.025479
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 3 (Periodic)
+	 Next block = 1, next patch = 1
+	 ist = 0, ien = 1; jst = 0, jen = 101; kst = 24, ken = 33
+	 idir = 6; jdir = 1; kdir = 2
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 4 (Periodic)
+	 Next block = 5, next patch = 3
+	 ist = 0, ien = 1; jst = 0, jen = 101; kst = 32, ken = 57
+	 idir = 6; jdir = 1; kdir = 2
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 5 (Periodic)
+	 Next block = 0, next patch = 0
+	 ist = 0, ien = 81; jst = 0, jen = 101; kst = 56, ken = 57
+	 idir = 0; jdir = 1; kdir = 6
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00001515; sdt =   0.00014183
+	 max_dx = 0; max_dr = 1.4901e-08; max_dt = 8.5682e-08
+
+
+Block 1 	 np 5 
+
+	 Patch 0 (Periodic)
+	 Next block = 6, next patch = 2
+	 ist = 0, ien = 21; jst = 0, jen = 101; kst = 0, ken = 1
+	 idir = 3; jdir = 1; kdir = 6
+	 Corner distances = 0.001358, 0.000000, 0.012998, 0.010948
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 1 (Periodic)
+	 Next block = 0, next patch = 3
+	 ist = 20, ien = 21; jst = 0, jen = 101; kst = 0, ken = 9
+	 idir = 6; jdir = 1; kdir = 2
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 2 (Periodic)
+	 Next block = 4, next patch = 3
+	 ist = 0, ien = 1; jst = 0, jen = 101; kst = 0, ken = 5
+	 idir = 6; jdir = 1; kdir = 3
+	 Corner distances = 0.022032, 0.004248, 0.082201, 0.004431
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 3 (Periodic)
+	 Next block = 4, next patch = 7
+	 ist = 0, ien = 1; jst = 0, jen = 101; kst = 4, ken = 9
+	 idir = 6; jdir = 1; kdir = 3
+	 Corner distances = 0.022229, 0.000000, 0.081261, 0.005053
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 4 (Periodic)
+	 Next block = 5, next patch = 2
+	 ist = 0, ien = 21; jst = 0, jen = 101; kst = 8, ken = 9
+	 idir = 0; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+
+Block 2 	 np 6 
+
+	 Patch 0 (Periodic)
+	 Next block = 2, next patch = 5
+	 ist = 0, ien = 69; jst = 0, jen = 101; kst = 0, ken = 1
+	 idir = 0; jdir = 1; kdir = 6
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00001279; sdt =   0.00013975
+	 max_dx = 0; max_dr = 1.4901e-08; max_dt = 8.9407e-08
+
+	 Patch 1 (Periodic)
+	 Next block = 6, next patch = 3
+	 ist = 68, ien = 69; jst = 0, jen = 101; kst = 0, ken = 25
+	 idir = 6; jdir = 1; kdir = 5
+	 Corner distances = 0.000000, 0.010807, 0.001247, 0.001774
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 2 (Periodic)
+	 Next block = 3, next patch = 2
+	 ist = 68, ien = 69; jst = 0, jen = 101; kst = 24, ken = 33
+	 idir = 6; jdir = 1; kdir = 2
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 3 (Periodic)
+	 Next block = 5, next patch = 4
+	 ist = 68, ien = 69; jst = 0, jen = 101; kst = 32, ken = 57
+	 idir = 6; jdir = 1; kdir = 2
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 4 (Inlet)
+	 ist = 0, ien = 1; jst = 0, jen = 101; kst = 0, ken = 57
+
+	 Patch 5 (Periodic)
+	 Next block = 2, next patch = 0
+	 ist = 0, ien = 69; jst = 0, jen = 101; kst = 56, ken = 57
+	 idir = 0; jdir = 1; kdir = 6
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00001279; sdt =   0.00012690
+	 max_dx = 0; max_dr = 1.4901e-08; max_dt = 1.1921e-07
+
+
+Block 3 	 np 4 
+
+	 Patch 0 (Periodic)
+	 Next block = 6, next patch = 0
+	 ist = 0, ien = 17; jst = 0, jen = 101; kst = 0, ken = 1
+	 idir = 3; jdir = 1; kdir = 6
+	 Corner distances = 0.011891, 0.007489, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 1 (Periodic)
+	 Next block = 4, next patch = 5
+	 ist = 16, ien = 17; jst = 0, jen = 101; kst = 0, ken = 9
+	 idir = 6; jdir = 1; kdir = 0
+	 Corner distances = 0.000000, 0.020693, 0.000000, 0.072493
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 2 (Periodic)
+	 Next block = 2, next patch = 2
+	 ist = 0, ien = 1; jst = 0, jen = 101; kst = 0, ken = 9
+	 idir = 6; jdir = 1; kdir = 2
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 3 (Periodic)
+	 Next block = 5, next patch = 0
+	 ist = 0, ien = 17; jst = 0, jen = 101; kst = 8, ken = 9
+	 idir = 0; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+
+Block 4 	 np 8 
+
+	 Patch 0 (Periodic)
+	 Next block = 7, next patch = 7
+	 ist = 0, ien = 193; jst = 99, jen = 101; kst = 0, ken = 1
+	 idir = 0; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 1 (Periodic)
+	 Next block = 4, next patch = 2
+	 ist = 192, ien = 193; jst = 0, jen = 101; kst = 0, ken = 25
+	 idir = 6; jdir = 1; kdir = 2
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 2 (Periodic)
+	 Next block = 4, next patch = 1
+	 ist = 0, ien = 1; jst = 0, jen = 101; kst = 0, ken = 25
+	 idir = 6; jdir = 1; kdir = 2
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 3 (Periodic)
+	 Next block = 1, next patch = 2
+	 ist = 0, ien = 5; jst = 0, jen = 101; kst = 24, ken = 25
+	 idir = 5; jdir = 1; kdir = 6
+	 Corner distances = 0.022229, 0.003053, 0.082623, 0.003354
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 4 (Periodic)
+	 Next block = 6, next patch = 1
+	 ist = 4, ien = 93; jst = 0, jen = 101; kst = 24, ken = 25
+	 idir = 0; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 5 (Periodic)
+	 Next block = 3, next patch = 1
+	 ist = 92, ien = 101; jst = 0, jen = 101; kst = 24, ken = 25
+	 idir = 2; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.072493, 0.000000, 0.020693
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 6 (Periodic)
+	 Next block = 5, next patch = 1
+	 ist = 100, ien = 189; jst = 0, jen = 101; kst = 24, ken = 25
+	 idir = 0; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 7 (Periodic)
+	 Next block = 1, next patch = 3
+	 ist = 188, ien = 193; jst = 0, jen = 101; kst = 24, ken = 25
+	 idir = 5; jdir = 1; kdir = 6
+	 Corner distances = 0.021706, 0.002424, 0.082201, 0.006993
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+
+Block 5 	 np 6 
+
+	 Patch 0 (Periodic)
+	 Next block = 3, next patch = 3
+	 ist = 0, ien = 17; jst = 0, jen = 101; kst = 0, ken = 1
+	 idir = 0; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 1 (Periodic)
+	 Next block = 4, next patch = 6
+	 ist = 16, ien = 105; jst = 0, jen = 101; kst = 0, ken = 1
+	 idir = 0; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 2 (Periodic)
+	 Next block = 1, next patch = 4
+	 ist = 104, ien = 125; jst = 0, jen = 101; kst = 0, ken = 1
+	 idir = 0; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 3 (Periodic)
+	 Next block = 0, next patch = 4
+	 ist = 124, ien = 125; jst = 0, jen = 101; kst = 0, ken = 25
+	 idir = 6; jdir = 1; kdir = 2
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 4 (Periodic)
+	 Next block = 2, next patch = 3
+	 ist = 0, ien = 1; jst = 0, jen = 101; kst = 0, ken = 25
+	 idir = 6; jdir = 1; kdir = 2
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 5 (Periodic)
+	 Next block = 6, next patch = 5
+	 ist = 0, ien = 125; jst = 0, jen = 101; kst = 24, ken = 25
+	 idir = 3; jdir = 1; kdir = 6
+	 Corner distances = 0.012379, 0.000000, 0.006437, 0.019787
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00002344; sdt =   0.00021295
+	 max_dx = 0; max_dr = 1.4901e-08; max_dt = 8.9407e-08
+
+
+Block 6 	 np 6 
+
+	 Patch 0 (Periodic)
+	 Next block = 3, next patch = 0
+	 ist = 108, ien = 125; jst = 0, jen = 101; kst = 0, ken = 1
+	 idir = 3; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.000000, 0.007489, 0.011891
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 1 (Periodic)
+	 Next block = 4, next patch = 4
+	 ist = 20, ien = 109; jst = 0, jen = 101; kst = 0, ken = 1
+	 idir = 0; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 2 (Periodic)
+	 Next block = 1, next patch = 0
+	 ist = 0, ien = 21; jst = 0, jen = 101; kst = 0, ken = 1
+	 idir = 3; jdir = 1; kdir = 6
+	 Corner distances = 0.010948, 0.012998, 0.000000, 0.001358
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 3 (Periodic)
+	 Next block = 2, next patch = 1
+	 ist = 124, ien = 125; jst = 0, jen = 101; kst = 0, ken = 25
+	 idir = 6; jdir = 1; kdir = 5
+	 Corner distances = 0.010807, 0.000000, 0.001774, 0.001247
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 4 (Periodic)
+	 Next block = 0, next patch = 2
+	 ist = 0, ien = 1; jst = 0, jen = 101; kst = 0, ken = 25
+	 idir = 6; jdir = 1; kdir = 5
+	 Corner distances = 0.005000, 0.009903, 0.025479, 0.000031
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 5 (Periodic)
+	 Next block = 5, next patch = 5
+	 ist = 0, ien = 125; jst = 0, jen = 101; kst = 24, ken = 25
+	 idir = 3; jdir = 1; kdir = 6
+	 Corner distances = 0.016740, 0.013523, 0.003855, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00002344; sdt =   0.00021157
+	 max_dx = 0; max_dr = 1.4901e-08; max_dt = 8.9407e-08
+
+
+Block 7 	 np 8 
+
+	 Patch 0 (Periodic)
+	 Next block = 8, next patch = 1
+	 ist = 0, ien = 5; jst = 0, jen = 2; kst = 0, ken = 1
+	 idir = 5; jdir = 1; kdir = 6
+	 Corner distances = 0.000212, 0.000890, 0.001269, 0.000960
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 1 (Periodic)
+	 Next block = 8, next patch = 0
+	 ist = 4, ien = 93; jst = 0, jen = 2; kst = 0, ken = 1
+	 idir = 3; jdir = 1; kdir = 6
+	 Corner distances = 0.010543, 0.010542, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 2 (Periodic)
+	 Next block = 8, next patch = 3
+	 ist = 92, ien = 101; jst = 0, jen = 2; kst = 0, ken = 1
+	 idir = 2; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.002620, 0.000000, 0.000817
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 3 (Periodic)
+	 Next block = 8, next patch = 4
+	 ist = 100, ien = 189; jst = 0, jen = 2; kst = 0, ken = 1
+	 idir = 0; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 4 (Periodic)
+	 Next block = 8, next patch = 2
+	 ist = 188, ien = 193; jst = 0, jen = 2; kst = 0, ken = 1
+	 idir = 5; jdir = 1; kdir = 6
+	 Corner distances = 0.000211, 0.000926, 0.001269, 0.000931
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 5 (Periodic)
+	 Next block = 7, next patch = 6
+	 ist = 192, ien = 193; jst = 0, jen = 2; kst = 0, ken = 9
+	 idir = 6; jdir = 1; kdir = 2
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 6 (Periodic)
+	 Next block = 7, next patch = 5
+	 ist = 0, ien = 1; jst = 0, jen = 2; kst = 0, ken = 9
+	 idir = 6; jdir = 1; kdir = 2
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 7 (Periodic)
+	 Next block = 4, next patch = 0
+	 ist = 0, ien = 193; jst = 0, jen = 2; kst = 8, ken = 9
+	 idir = 0; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+
+Block 8 	 np 5 
+
+	 Patch 0 (Periodic)
+	 Next block = 7, next patch = 1
+	 ist = 0, ien = 89; jst = 0, jen = 2; kst = 0, ken = 1
+	 idir = 3; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.000000, 0.010542, 0.010543
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 1 (Periodic)
+	 Next block = 7, next patch = 0
+	 ist = 88, ien = 89; jst = 0, jen = 2; kst = 0, ken = 5
+	 idir = 6; jdir = 1; kdir = 3
+	 Corner distances = 0.000213, 0.000890, 0.001269, 0.000971
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 2 (Periodic)
+	 Next block = 7, next patch = 4
+	 ist = 88, ien = 89; jst = 0, jen = 2; kst = 4, ken = 9
+	 idir = 6; jdir = 1; kdir = 3
+	 Corner distances = 0.000212, 0.000926, 0.001269, 0.000931
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 3 (Periodic)
+	 Next block = 7, next patch = 2
+	 ist = 0, ien = 1; jst = 0, jen = 2; kst = 0, ken = 9
+	 idir = 6; jdir = 1; kdir = 0
+	 Corner distances = 0.000000, 0.000817, 0.000000, 0.002620
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+
+	 Patch 4 (Periodic)
+	 Next block = 7, next patch = 3
+	 ist = 0, ien = 89; jst = 0, jen = 2; kst = 8, ken = 9
+	 idir = 0; jdir = 1; kdir = 6
+	 Corner distances = 0.000000, 0.000000, 0.000000, 0.000000
+	 Length difference = 0, 0, 0
+	 sdx =   0.00000000; sdr =   0.00000000; sdt =   0.00000000
+	 max_dx = 0; max_dr = 0; max_dt = 0
+

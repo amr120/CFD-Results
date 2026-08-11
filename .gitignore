@@ -1,0 +1,41 @@
+# Whitelist repo: only the six thesis designs + analysis. Everything else stays on WL-JT-006.
+/*
+!/.gitignore
+!/*.m
+!/*.pdf
+!/*.png
+!/Paraview State Files/
+!/AUTOGRID/
+!/TURBOSTREAM/
+!/Geometry/
+AUTOGRID/*
+TURBOSTREAM/*
+Geometry/*
+!AUTOGRID/*02062026PropPhi06HYBRID*
+!AUTOGRID/*02062026PropPhi06n05*
+!AUTOGRID/*11052026PropPhi06*
+!AUTOGRID/*Phi06DUCTEDFAN*
+!AUTOGRID/*Phi075DUCTEDFAN*
+!AUTOGRID/*Phi09DUCTEDFAN*
+!TURBOSTREAM/*02062026PropPhi06HYBRID*
+!TURBOSTREAM/*02062026PropPhi06n05*
+!TURBOSTREAM/*11052026PropPhi06*
+!TURBOSTREAM/*Phi06DUCTEDFAN*
+!TURBOSTREAM/*Phi075DUCTEDFAN*
+!TURBOSTREAM/*Phi09DUCTEDFAN*
+!Geometry/*02062026PropPhi06HYBRID*
+!Geometry/*02062026PropPhi06n05*
+!Geometry/*11052026PropPhi06*
+!Geometry/*Phi06DUCTEDFAN*
+!Geometry/*Phi075DUCTEDFAN*
+!Geometry/*Phi09DUCTEDFAN*
+# Bulk re-excludes (these win over the whitelists above)
+*.hdf5
+*.g
+*.cgns
+*.bak
+*.asv
+TURBOSTREAM/*.mat
+# Run logs and double-extension backups
+TURBOSTREAM/log_*.txt
+*.bak.*

@@ -1,0 +1,493 @@
+<?xml version='1.0' ?>
+<!DOCTYPE Xdmf SYSTEM 'Xdmf.dtd' []>
+<Xdmf>
+	<Domain>
+		<Grid Name='grid' GridType='Collection' CollectionType='Spatial'>
+			<Grid Name='block0' GridType='Uniform'>
+				<Topology Type='3DSMESH' Dimensions='57 168 81'/>
+				<Geometry Type='X_Y_Z'>
+					<DataItem DataType='Float' Precision='4' Dimensions='57 168 81' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block0/x_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='57 168 81' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block0/r_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='57 168 81' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block0/rt_bp
+					</DataItem>
+				</Geometry>
+				<Attribute Name='ro' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 81' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block0/ro_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovx' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 81' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block0/rovx_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovr' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 81' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block0/rovr_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rorvt' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 81' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block0/rorvt_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='roe' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 81' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block0/roe_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='trans_dyn_vis' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 81' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block0/trans_dyn_vis_bp
+					</DataItem>
+				</Attribute>
+			</Grid>
+			<Grid Name='block1' GridType='Uniform'>
+				<Topology Type='3DSMESH' Dimensions='9 168 21'/>
+				<Geometry Type='X_Y_Z'>
+					<DataItem DataType='Float' Precision='4' Dimensions='9 168 21' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block1/x_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='9 168 21' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block1/r_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='9 168 21' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block1/rt_bp
+					</DataItem>
+				</Geometry>
+				<Attribute Name='ro' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 168 21' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block1/ro_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovx' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 168 21' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block1/rovx_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovr' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 168 21' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block1/rovr_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rorvt' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 168 21' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block1/rorvt_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='roe' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 168 21' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block1/roe_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='trans_dyn_vis' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 168 21' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block1/trans_dyn_vis_bp
+					</DataItem>
+				</Attribute>
+			</Grid>
+			<Grid Name='block2' GridType='Uniform'>
+				<Topology Type='3DSMESH' Dimensions='57 168 69'/>
+				<Geometry Type='X_Y_Z'>
+					<DataItem DataType='Float' Precision='4' Dimensions='57 168 69' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block2/x_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='57 168 69' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block2/r_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='57 168 69' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block2/rt_bp
+					</DataItem>
+				</Geometry>
+				<Attribute Name='ro' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 69' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block2/ro_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovx' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 69' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block2/rovx_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovr' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 69' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block2/rovr_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rorvt' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 69' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block2/rorvt_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='roe' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 69' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block2/roe_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='trans_dyn_vis' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 69' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block2/trans_dyn_vis_bp
+					</DataItem>
+				</Attribute>
+			</Grid>
+			<Grid Name='block3' GridType='Uniform'>
+				<Topology Type='3DSMESH' Dimensions='9 168 17'/>
+				<Geometry Type='X_Y_Z'>
+					<DataItem DataType='Float' Precision='4' Dimensions='9 168 17' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block3/x_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='9 168 17' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block3/r_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='9 168 17' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block3/rt_bp
+					</DataItem>
+				</Geometry>
+				<Attribute Name='ro' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 168 17' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block3/ro_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovx' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 168 17' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block3/rovx_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovr' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 168 17' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block3/rovr_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rorvt' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 168 17' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block3/rorvt_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='roe' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 168 17' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block3/roe_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='trans_dyn_vis' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 168 17' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block3/trans_dyn_vis_bp
+					</DataItem>
+				</Attribute>
+			</Grid>
+			<Grid Name='block4' GridType='Uniform'>
+				<Topology Type='3DSMESH' Dimensions='25 168 193'/>
+				<Geometry Type='X_Y_Z'>
+					<DataItem DataType='Float' Precision='4' Dimensions='25 168 193' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block4/x_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='25 168 193' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block4/r_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='25 168 193' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block4/rt_bp
+					</DataItem>
+				</Geometry>
+				<Attribute Name='ro' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 193' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block4/ro_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovx' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 193' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block4/rovx_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovr' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 193' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block4/rovr_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rorvt' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 193' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block4/rorvt_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='roe' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 193' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block4/roe_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='trans_dyn_vis' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 193' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block4/trans_dyn_vis_bp
+					</DataItem>
+				</Attribute>
+			</Grid>
+			<Grid Name='block5' GridType='Uniform'>
+				<Topology Type='3DSMESH' Dimensions='25 168 125'/>
+				<Geometry Type='X_Y_Z'>
+					<DataItem DataType='Float' Precision='4' Dimensions='25 168 125' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block5/x_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='25 168 125' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block5/r_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='25 168 125' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block5/rt_bp
+					</DataItem>
+				</Geometry>
+				<Attribute Name='ro' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 125' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block5/ro_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovx' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 125' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block5/rovx_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovr' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 125' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block5/rovr_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rorvt' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 125' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block5/rorvt_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='roe' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 125' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block5/roe_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='trans_dyn_vis' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 125' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block5/trans_dyn_vis_bp
+					</DataItem>
+				</Attribute>
+			</Grid>
+			<Grid Name='block6' GridType='Uniform'>
+				<Topology Type='3DSMESH' Dimensions='25 168 125'/>
+				<Geometry Type='X_Y_Z'>
+					<DataItem DataType='Float' Precision='4' Dimensions='25 168 125' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block6/x_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='25 168 125' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block6/r_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='25 168 125' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block6/rt_bp
+					</DataItem>
+				</Geometry>
+				<Attribute Name='ro' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 125' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block6/ro_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovx' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 125' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block6/rovx_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovr' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 125' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block6/rovr_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rorvt' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 125' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block6/rorvt_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='roe' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 125' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block6/roe_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='trans_dyn_vis' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='25 168 125' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block6/trans_dyn_vis_bp
+					</DataItem>
+				</Attribute>
+			</Grid>
+			<Grid Name='block7' GridType='Uniform'>
+				<Topology Type='3DSMESH' Dimensions='9 69 193'/>
+				<Geometry Type='X_Y_Z'>
+					<DataItem DataType='Float' Precision='4' Dimensions='9 69 193' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block7/x_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='9 69 193' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block7/r_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='9 69 193' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block7/rt_bp
+					</DataItem>
+				</Geometry>
+				<Attribute Name='ro' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 69 193' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block7/ro_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovx' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 69 193' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block7/rovx_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovr' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 69 193' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block7/rovr_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rorvt' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 69 193' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block7/rorvt_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='roe' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 69 193' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block7/roe_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='trans_dyn_vis' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 69 193' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block7/trans_dyn_vis_bp
+					</DataItem>
+				</Attribute>
+			</Grid>
+			<Grid Name='block8' GridType='Uniform'>
+				<Topology Type='3DSMESH' Dimensions='9 69 89'/>
+				<Geometry Type='X_Y_Z'>
+					<DataItem DataType='Float' Precision='4' Dimensions='9 69 89' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block8/x_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='9 69 89' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block8/r_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='9 69 89' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block8/rt_bp
+					</DataItem>
+				</Geometry>
+				<Attribute Name='ro' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 69 89' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block8/ro_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovx' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 69 89' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block8/rovx_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovr' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 69 89' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block8/rovr_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rorvt' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 69 89' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block8/rorvt_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='roe' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 69 89' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block8/roe_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='trans_dyn_vis' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='9 69 89' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block8/trans_dyn_vis_bp
+					</DataItem>
+				</Attribute>
+			</Grid>
+			<Grid Name='block9' GridType='Uniform'>
+				<Topology Type='3DSMESH' Dimensions='57 168 49'/>
+				<Geometry Type='X_Y_Z'>
+					<DataItem DataType='Float' Precision='4' Dimensions='57 168 49' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block9/x_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='57 168 49' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block9/r_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='57 168 49' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block9/rt_bp
+					</DataItem>
+				</Geometry>
+				<Attribute Name='ro' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 49' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block9/ro_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovx' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 49' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block9/rovx_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovr' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 49' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block9/rovr_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rorvt' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 49' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block9/rorvt_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='roe' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 49' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block9/roe_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='trans_dyn_vis' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 49' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block9/trans_dyn_vis_bp
+					</DataItem>
+				</Attribute>
+			</Grid>
+			<Grid Name='block10' GridType='Uniform'>
+				<Topology Type='3DSMESH' Dimensions='57 168 73'/>
+				<Geometry Type='X_Y_Z'>
+					<DataItem DataType='Float' Precision='4' Dimensions='57 168 73' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block10/x_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='57 168 73' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block10/r_bp
+					</DataItem>
+					<DataItem DataType='Float' Precision='4' Dimensions='57 168 73' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block10/rt_bp
+					</DataItem>
+				</Geometry>
+				<Attribute Name='ro' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 73' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block10/ro_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovx' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 73' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block10/rovx_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rovr' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 73' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block10/rovr_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='rorvt' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 73' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block10/rorvt_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='roe' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 73' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block10/roe_bp
+					</DataItem>
+				</Attribute>
+				<Attribute Name='trans_dyn_vis' AttributeType='Scalar' Center='Node'>
+					<DataItem Dimensions='57 168 73' NumberType='Float' Precision='4' Format='HDF'>
+						B_9_02062026PropPhi06HYBRID_O1_input.hdf5:/block10/trans_dyn_vis_bp
+					</DataItem>
+				</Attribute>
+			</Grid>
+		</Grid>
+	</Domain>
+</Xdmf>
+

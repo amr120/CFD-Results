@@ -1,0 +1,67 @@
+s_hub	0
+s_cas	0
+d_hub	0
+d_cas	1e-05
+f_hub	0
+f_cas	0
+N	7
+rpm	10750.2	0
+o_le_hub	0.02
+o_le_cas	0.000219342
+o_te_hub	0.02
+o_te_cas	0.000219342
+e_le_hub	0.002
+e_le_cas	1.3e-05
+e_te_hub	0.002
+e_te_cas	1.3e-05
+o_in_hub	0.04
+o_in_cas	0.04
+o_out_hub	0.04
+o_out_cas	0.04
+e_in_hub	0.002
+e_in_cas	0.002
+e_out_hub	0.002
+e_out_cas	0.002
+f_hub_fly	0
+f_cas_fly	0
+stin	0	0
+stout	0	0
+ui	0
+uo	0
+o_hub	0
+o_cas	98.978
+e_o	0
+dx_row	0.0192248
+n_zi	17	9
+n_zo	29
+n_j	101
+n_jc	30
+n_g	2
+n_f	17
+n_fb	13
+n_gb	13
+n_bu	101	101
+n_bl	101	101
+n_b	25
+r_b	1.15
+n_ai	25
+n_aiu	25	25
+n_aid	17	17
+n_ao	25
+n_aou	25	25
+n_aod	25	25
+n_si	17
+n_so	25	9
+e_j	1.3e-05
+e_b	1e-05
+e_f	0.002
+e_s	4e-05
+i_j	2
+skew	9
+f_min	0.15
+f_far	5
+nj_far	65
+ni_in	49
+ni_out	73
+dr_far	0.025
+tweak2	1

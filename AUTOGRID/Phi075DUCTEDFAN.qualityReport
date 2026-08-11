@@ -1,0 +1,120 @@
+
+*******  AUTOGRID version 2024.1  REPORT FILE ********
+
+PROJECT        : Phi075DUCTEDFAN
+TEMPLATE FILE  : /Data/Engine_Selector/AUTOGRID/Phi075DUCTEDFAN.trb
+
+NI_BEGIN PROJECT_INFO
+NUMECA Int.- AUTOGRID - PROJECT INFO
+  
+NUMBER OF POINTS 2697710
+NUMBER OF ROWS   2
+  
+ROW NAME: row 1
+          NUMBER OF MAIN BLADES       8
+          NUMBER OF SPLITTER BLADES 0
+          NUMBER OF POINTS                   1348855
+          NUMBER OF LAYERS                  101
+          BLADE TO BLADE TOPOLOGY    Default
+ROW NAME: row 2
+          NUMBER OF MAIN BLADES       9
+          NUMBER OF SPLITTER BLADES 0
+          NUMBER OF POINTS                   1348855
+          NUMBER OF LAYERS                  101
+          BLADE TO BLADE TOPOLOGY    Default
+NI_END PROJECT_INFO
+NI_BEGIN PERSONNAL_INFO
+NI_END PERSONNAL_INFO
+NI_END INFO
+
+************************************
+*******  GRID QUALITY REPORT *******
+************************************
+
+Generation Date : 2026-06-11 16:58:15
+Generation Time : 00:00:27
+Mesh Validity    : OK  (No Overlapping Cells Generated)
+
+	Entire Mesh Quality
+
+		 No Negative Cell
+		Number of Points 2697710
+		Number of grid levels  3
+		Minimal Skewness  Angle:		29.75
+		Maximal Skewness  Angle:		90
+		Average Skewness  Angle:		84.8209
+		Minimal Spanwise Skewness Angle:		179.35
+		Maximal Spanwise Skewness Angle:		180
+		Average Spanwise Skewness Angle:		179.957
+		Minimal Spanwise Expansion Ratio:		1
+		Maximal Spanwise Expansion Ratio:		1.2383
+		Average Spanwise Expansion Ratio:		1.08969
+		Minimal Aspect    Ratio:		1
+		Maximal Aspect    Ratio:		218.33
+		Average Aspect    Ratio:		6.50606
+		Minimal Expansion Ratio:		1
+		Maximal Expansion Ratio:		2.2569
+		Average Expansion Ratio:		1.06293
+		Minimal wall Distance  :		8.9286e-06
+		Maximal wall Distance  :		1.1491e-05
+		Average wall Distance  :		9.97598e-06
+
+	row 1 Quality
+
+		 No Negative Cell
+		Number of Points 1348855
+		Number of grid levels  3
+		Minimal Skewness  Angle:		29.75
+		Maximal Skewness  Angle:		90
+		Average Skewness  Angle:		82.5464
+		Max Location Skewness  Angle:		row_1_flux_1_Main_Blade_skin I,J,K:3,88,107
+		Minimal Spanwise Skewness Angle:		179.35
+		Maximal Spanwise Skewness Angle:		180
+		Average Spanwise Skewness Angle:		179.946
+		Max Location Spanwise Skewness Angle:		row_1_flux_1_Main_Blade_downStream I,J,K:23,93,123
+		Minimal Spanwise Expansion Ratio:		1
+		Maximal Spanwise Expansion Ratio:		1.2381
+		Average Spanwise Expansion Ratio:		1.0897
+		Max Location Spanwise Expansion Ratio:		row_1_flux_1_Main_Blade_downStream I,J,K:43,95,3
+		Minimal Aspect    Ratio:		1
+		Maximal Aspect    Ratio:		218.33
+		Average Aspect    Ratio:		6.77797
+		Max Location Aspect    Ratio:		row_1_flux_1_Main_Blade_downStream I,J,K:0,99,0
+		Minimal Expansion Ratio:		1
+		Maximal Expansion Ratio:		2.2569
+		Average Expansion Ratio:		1.06426
+		Max Location Expansion Ratio:		row_1_flux_1_Main_Blade_skin I,J,K:23,99,99
+		Minimal wall Distance  :		8.9286e-06
+		Maximal wall Distance  :		1.1491e-05
+		Average wall Distance  :		9.97955e-06
+		Max Location wall Distance  :		row_1_flux_1_Main_Blade_up I,J,K:12,0,18
+
+	row 2 Quality
+
+		 No Negative Cell
+		Number of Points 1348855
+		Number of grid levels  3
+		Minimal Skewness  Angle:		46.914
+		Maximal Skewness  Angle:		90
+		Average Skewness  Angle:		87.0953
+		Max Location Skewness  Angle:		row_2_flux_1_Main_Blade_skin I,J,K:0,75,176
+		Minimal Spanwise Skewness Angle:		179.65
+		Maximal Spanwise Skewness Angle:		180
+		Average Spanwise Skewness Angle:		179.968
+		Max Location Spanwise Skewness Angle:		row_2_flux_1_Main_Blade_down I,J,K:11,4,122
+		Minimal Spanwise Expansion Ratio:		1
+		Maximal Spanwise Expansion Ratio:		1.2383
+		Average Spanwise Expansion Ratio:		1.08969
+		Max Location Spanwise Expansion Ratio:		row_2_flux_1_Main_Blade_upStream I,J,K:40,3,3
+		Minimal Aspect    Ratio:		1
+		Maximal Aspect    Ratio:		170.26
+		Average Aspect    Ratio:		6.23414
+		Max Location Aspect    Ratio:		row_2_flux_1_Main_Blade_down I,J,K:23,99,65
+		Minimal Expansion Ratio:		1
+		Maximal Expansion Ratio:		1.6641
+		Average Expansion Ratio:		1.0616
+		Max Location Expansion Ratio:		row_2_flux_1_Main_Blade_skin I,J,K:23,99,91
+		Minimal wall Distance  :		8.9476e-06
+		Maximal wall Distance  :		1.1101e-05
+		Average wall Distance  :		9.97242e-06
+		Max Location wall Distance  :		row_2_flux_1_Main_Blade_down I,J,K:12,100,103
