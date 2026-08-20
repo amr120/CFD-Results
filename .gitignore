@@ -36,6 +36,10 @@ Geometry/*
 *.bak
 *.asv
 TURBOSTREAM/*.mat
+# ...except the blade-count sweep summary. It is a few kB, and it is the whole
+# input to thesis Figures 6.7 and 6.8, so keeping it here means those two can be
+# redrawn without reaching for the lab machine's 100 MB+ solution files.
+!TURBOSTREAM/*_thrust_sweep.mat
 # Run logs and double-extension backups
 TURBOSTREAM/log_*.txt
 *.bak.*
